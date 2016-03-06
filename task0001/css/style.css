@@ -1,6 +1,32 @@
 /**
  * 全页面渲染或可复用的代码放在这儿
  */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif, "Microsoft YaHei";
+}
+
+body {
+    background-color: #e3e3e3;
+}
+
+.wrap {
+    background-color: #f4f4f4;
+}
+
+.clearfix:after {
+    display: block;
+    height: 0;
+    content: ".";
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
 
 /**
  * index.html
