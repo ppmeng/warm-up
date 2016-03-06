@@ -12,10 +12,16 @@ body {
     background-color: #e3e3e3;
 }
 
-.wrap {
-    background-color: #f4f4f4;
+p, article {
+    text-indent: 2em;
 }
 
+/*包裹块*/
+.bg-white {
+    background-color: #ffffff;
+}
+
+/*清除浮动*/
 .clearfix:after {
     display: block;
     height: 0;
@@ -31,7 +37,107 @@ body {
 /**
  * index.html
  */
+.banner {
+    width: auto;
+    height: 600px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+}
 
+.banner-container {
+    position: relative;
+    width: 980px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 400px;
+    padding: 10px 10px 30px 10px;
+    color: #F4F4F4;
+    background-color: #ffffff;
+    background: linear-gradient(top,
+    rgba(244, 244, 244, 0.7) 0%,
+    rgba(244, 244, 244, 0.5) 75%,
+    rgba(244, 244, 244, 0) 100%
+    );
+    background: -webkit-linear-gradient(top,
+    rgba(244, 244, 244, 0.7) 0%,
+    rgba(244, 244, 244, 0.5) 75%,
+    rgba(244, 244, 244, 0) 100%
+    );
+}
+
+.banner-text h1 {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.banner-text article {
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.blog-container {
+    width: 980px;
+    margin: 10px auto 100px;
+    overflow: hidden;
+}
+
+.blog-list {
+    float: left;
+    width: 320px;
+    margin-right: 10px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.blog-list:last-child {
+    margin-right: 0;
+}
+
+.blog-list img {
+    width: 300px;
+    height: 180px;
+    margin: 10px 10px 15px 10px;
+}
+
+.blog-list p {
+    padding: 0 30px 25px 30px;
+    line-height: 170%;
+    font-size: 12px;
+}
+.intro-container {
+    width: 100%;
+    background-color: #ffffff;
+}
+.intro-container img {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: -50px;
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.intro-container h1 {
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-weight: blod;
+    text-align: center;
+}
+.intro-container article {
+    font-size: 14px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    line-height: 170%;
+}
 /**
  * blog.html
  */
