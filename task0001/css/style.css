@@ -9,6 +9,7 @@
 }
 
 body {
+    height: 100%;
     background-color: #e3e3e3;
 }
 
@@ -125,9 +126,9 @@ p, article {
     border-radius: 80px;
 }
 .intro-container h1 {
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", sans-serif;
     font-size: 20px;
-    font-weight: blod;
+    font-weight: normal;
     text-align: center;
 }
 .intro-container article {
