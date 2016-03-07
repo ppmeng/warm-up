@@ -142,7 +142,52 @@ p, article {
 /**
  * blog.html
  */
+.blog-center {
+    width: 980px;
+    margin: 20px auto 0;
+}
+.blog-content {
+    float: left;
+    width: 710px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+.blog {
+    position: relative;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    background: #fff; 
+}
+.blog h1 {
+    font-size: 16px;
+    color: #9932cc;
+}
+.blog h2 {
+    font-size: 12px;
+}
+.blog p {
+    font-size: 13px;
+}
+.blog section {
+    float: right;
+    font-size: 15px;
+}
+.label {
+    float: left;
+    width: 50px;
+    margin-left: -70px;
+    color: #fff;
+}
+.date {
+    width: 100%;
+    background: #800080;
+    text-align: center;
+}
+.blog-key {
 
+    background: #9932CC;
+}
 /**
  * gallery.html
  */
