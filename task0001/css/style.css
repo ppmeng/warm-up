@@ -144,13 +144,13 @@ p, article {
  */
 .blog-center {
     width: 980px;
-    margin: 20px auto 0;
+    margin: 20px auto;
 }
 .blog-content {
     float: left;
     width: 710px;
     margin-right: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
 }
 .blog {
     position: relative;
@@ -193,7 +193,7 @@ p, article {
 }
 .page {
     width: 541px;
-    margin: 0 auto 100px;
+    margin: 0 auto;
 }
 .number {
     float: left;
@@ -223,7 +223,6 @@ p, article {
     border: 1px solid #e2e2e2;
     margin: 20px;
     height: 40px;
-    font-size: 0;
 }
 .search:hover {
     border: 1px solid #47456d;
@@ -261,6 +260,9 @@ p, article {
 .classify:hover {
     border-left-color: #BA55D3;
 }
+.classify-wrap a {
+    text-decoration: none;
+}
 .calendar {
     width: 220px;
     margin: 20px;
@@ -282,6 +284,7 @@ p, article {
     color: #800080;
 }
 .tag-wrap {
+    margin-top: 10px;
     padding: 10px;
 }
 .tag-wrap h3 {
@@ -316,6 +319,7 @@ p, article {
 *footer.css
 */
 .footer {
+   clear: both;
     width: 100%;
     height: 400px;
     background: #000;

@@ -4,6 +4,7 @@
     border: 0;
 }
 .footer {
+	clear: both;
 	width: 100%;
 	height: 400px;
 	background: #000;
